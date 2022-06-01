@@ -1,19 +1,22 @@
 {
-  "name": "exotic-tube",
-  "version": "0.1.0",
-  "private": true,
+  "name": "starter-next-js",
+  "version": "1.0.0",
+  "description": "Next JS starter with SCSS, translation, basic components and config setup",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
-  "dependencies": {
-    "axios": "^0.27.2",
-    "next": "^12.1.6",
-    "next-translate": "^1.4.0",
-    "node-sass": "^7.0.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "regenerator-runtime": "^0.13.9"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mscholz-dev/starter-next-js"
+  },
+  "keywords": [
+    "starter",
+    "next",
+    "js"
+  ],
+  "author": "mscholz.dev",
+  "licence": "MIT",
+  "homepage": "https://github.com/mscholz-dev/starter-next-js"
 }
